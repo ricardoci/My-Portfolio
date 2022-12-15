@@ -8,22 +8,38 @@ body{
     font-family: 'Courier New', Courier, monospace;
     color:antiquewhite;
     line-height: 1.5;
+    background-image: url(city2.PNG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    backdrop-filter: blur(2px);
+    
+    
 }
 header{
-    padding: 15px 6% 15px 6%;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     background: linear-gradient(#d67229, #7a3803) ;
+    padding:1rem;
+    
+    
+    
+    
+    
 
 }
+
 nav ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     list-style-type: none;
+    
+    
 }
 
 nav a {
@@ -33,6 +49,8 @@ nav a {
     margin-right: 10px;
     background-repeat: no-repeat;
     font-size: 1.5rem;
+    
+    
     
    
 }
@@ -57,26 +75,23 @@ nav a {
     border-radius: 100%;
     margin: auto ;
     
-    
-    
-    
-   
-   
-    
-    
-    
-   
-
 
 }
 
+   
+    
+
 .hero-banner{
    
-    background: linear-gradient(10deg, #4d5061, #000000);
-    height: 100vh;
+    /*background: linear-gradient(10deg, #4d5061, #000000);*/
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
+
+    
     
    
     
@@ -105,3 +120,37 @@ nav a {
     margin-bottom: 8em;
 
 }
+
+
+
+#about{
+    height: 100vh;
+    padding: 0px 15rem 60px ;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(10deg, #4d5061, #252525);
+    
+    
+    
+
+}
+
+#about .page-image{
+    width: 350px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 5rem 5rem ; 
+    border-radius: 5%;  
+}
+#about h2{
+    font-size: 40px;
+}
+
+
+
+
+
