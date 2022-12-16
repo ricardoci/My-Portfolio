@@ -3,44 +3,30 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
-## Table of Contents (Optional)
+I built this project to put into work the skills that the bootcamp has taught me so far. This bootcamp was built to continue to practice my skills and so that I can provide recruiters with some of my projects. This helps recruiters and companies look at a a series of projects that I have built. It shows comapnies some of the skills that I have. I learned many new properties and ways to set up my sections. Websites look very easy to the eye but it is a different story when you are the one developeing them.
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
-## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+
+
+
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+My Portfolio Mockup
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-    ```md
-     assets/mockup.PNG
-    ```
+<img src="assets/mockup.PNG">
+    
+    
 
-## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
+License in GitHub.
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+
