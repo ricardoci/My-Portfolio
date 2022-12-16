@@ -351,7 +351,23 @@ footer{
     header nav {
       justify-content: center;
     }
-    
+    @media screen and (max-width: 460px) {
+        header {
+          padding: 0 0 10px 0;
+          justify-content: center;
+          text-align: center;
+        }
+      
+        header h1 {
+          width: 100%;
+          padding: 5px;
+          margin-bottom: 10px;
+          font-size: 10vw;
+        }
+      
+        header nav {
+          justify-content: center;
+        }
     
   
   
@@ -378,6 +394,17 @@ footer{
     
   }
   @media screen and (max-width: 767px) {
+    
+    #work{
+        height: 270%;
+     }
+    
+  
+  
+    
+  }
+
+  @media screen and (max-width: 400px) {
     
     #work{
         height: 270%;
