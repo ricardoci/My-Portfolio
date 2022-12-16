@@ -199,8 +199,8 @@ nav a {
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    padding: 20px;
-    grid-gap: 3rem;
+    padding: 0 1rem 0 1rem;
+    grid-gap: 1rem;
    
 }
 .card{
@@ -292,34 +292,46 @@ nav a {
 }
 
 /*--------Contact-----------*/
+footer{
+    background: linear-gradient(#d67229, #7a3803) ;
+}
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    
 
+  }
+  
+  .contact address a {
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+  }
+  
+  .contact address a:hover {
+    background-size: 100% 88%;
+    color: #192132;
+    background-color: #7a3803;
+    border-radius: 5%;
+  }
 
   
  
   
   
 
-  @media screen and (max-width: 768px) {
-    .container,
-    .container:first-child {
-      flex-basis: 100%;
-    }
-    
   
-    .container:first-child {
-      min-height: 150px;
-    }
-  
-    .hero-banner {
-      justify-content: center;
-      text-align: center;
-    }
-   
-    
-    
-  
-   
-  }
   
 
   @media screen and (max-width: 980px) {
@@ -368,7 +380,7 @@ nav a {
   @media screen and (max-width: 767px) {
     
     #work{
-        height: 280%;
+        height: 270%;
      }
     
   
