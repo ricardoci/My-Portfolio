@@ -19,8 +19,13 @@ I built this project to put into work the skills that the bootcamp has taught me
 My Portfolio Mockup
 
 
+<<<<<<< HEAD
 <img src="assets/mockup.PNG">
     
+=======
+    
+     ![alt text](assets/mockup.PNG)
+>>>>>>> c4af2551b2a7bf828083e0bb2c4df1574070ad37
     
 
 
