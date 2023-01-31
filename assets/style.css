@@ -418,10 +418,10 @@ footer{
     
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 400px) {
     
     #work{
-        height: 340%;
+        height: 300%;
      }
     
   
