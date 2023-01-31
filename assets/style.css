@@ -201,15 +201,9 @@ nav a {
 
 .cards{
     display: grid;
-<<<<<<< HEAD
     grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
-    padding: 20px;
-    grid-gap: 3rem;
-=======
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     padding: 0 1rem 0 1rem;
     grid-gap: 1rem;
->>>>>>> 243fae352b2cce19d23de09a5c9ba1989750a582
    
 }
 .card{
@@ -315,8 +309,6 @@ footer{
     height: 5rem;
     
 
-<<<<<<< HEAD
-=======
   }
   
   .contact address a {
@@ -375,7 +367,7 @@ footer{
         header h1 {
           width: 100%;
           padding: 5px;
-          margin-bottom: 10px;
+          margin-bottom: 20px;
           font-size: 10vw;
         }
       
@@ -430,8 +422,8 @@ footer{
   }
   
  
-  
+}
+ 
   
   
  
->>>>>>> 243fae352b2cce19d23de09a5c9ba1989750a582
