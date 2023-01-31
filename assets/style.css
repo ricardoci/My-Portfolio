@@ -188,6 +188,7 @@ nav a {
 }
 /*------Work Cards--------*/
 
+
 #work{
     background: linear-gradient(10deg, #4d5061,#192132);
     height: 100vh;
@@ -200,9 +201,15 @@ nav a {
 
 .cards{
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
     padding: 20px;
     grid-gap: 3rem;
+=======
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 0 1rem 0 1rem;
+    grid-gap: 1rem;
+>>>>>>> 243fae352b2cce19d23de09a5c9ba1989750a582
    
 }
 .card{
@@ -297,4 +304,134 @@ nav a {
 }
 
 /*--------Contact-----------*/
+footer{
+    background: linear-gradient(#d67229, #7a3803) ;
+}
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    
 
+<<<<<<< HEAD
+=======
+  }
+  
+  .contact address a {
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+  }
+  
+  .contact address a:hover {
+    background-size: 100% 88%;
+    color: #192132;
+    background-color: #7a3803;
+    border-radius: 5%;
+  }
+
+  
+ 
+  
+  
+
+  
+  
+
+  @media screen and (max-width: 980px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+    }
+  
+    header nav {
+      justify-content: center;
+    }
+    @media screen and (max-width: 460px) {
+        header {
+          padding: 0 0 10px 0;
+          justify-content: center;
+          text-align: center;
+        }
+      
+        header h1 {
+          width: 100%;
+          padding: 5px;
+          margin-bottom: 10px;
+          font-size: 10vw;
+        }
+      
+        header nav {
+          justify-content: center;
+        }
+    
+  
+  
+    
+  }
+  @media screen and (min-width: 1024px) {
+    
+    #work{
+        height: 90%;
+     }
+    
+  
+  
+    
+  }
+  @media screen and (min-width: 768px) and (max-width:1023px) {
+    
+    #work{
+        height: 150%;
+     }
+    
+  
+  
+    
+  }
+  @media screen and (max-width: 767px) {
+    
+    #work{
+        height: 270%;
+     }
+    
+  
+  
+    
+  }
+
+  @media screen and (max-width: 360px) {
+    
+    #work{
+        height: 340%;
+     }
+    
+  
+  
+    
+  }
+  
+ 
+  
+  
+  
+ 
+>>>>>>> 243fae352b2cce19d23de09a5c9ba1989750a582
