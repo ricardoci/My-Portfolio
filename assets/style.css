@@ -292,13 +292,13 @@ footer{
         }
       
         
-    nav {
+    nav a{
       justify-content: center;
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
         .hero-banner h2{
             color: #d67229;
-            font-size: 2rem;
+            font-size: 1rem;
         }
     
   
@@ -319,9 +319,9 @@ footer{
       font-size: 8vw;
     }
   
-    nav{
+    nav a{
         justify-content: center;
-        font-size: 1rem;
+        font-size: 0.8rem;
       }
     .hero-banner h2{
         color: #d67229;
