@@ -332,7 +332,17 @@ footer{
   @media screen and (max-width: 400px) {
     
     #work{
-        height: 300%;
+        height: 400%;
+     }
+    
+  
+  
+    
+  }
+  @media screen and (max-width: 300px) {
+    
+    #work{
+        height: 500%;
      }
     
   
