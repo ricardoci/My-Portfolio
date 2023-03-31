@@ -310,12 +310,15 @@ footer{
             justify-content: center;
             align-items: center;
         }
-        
+        .page-wrapper{
+            margin-top: 2rem;
+          }
+    }   
     
   
   
     
-  }
+  
   @media screen and (max-width: 300px) {
     header {
       padding: 0 0 10px 0;
@@ -347,6 +350,9 @@ footer{
               display: flex;
               justify-content: center;
               align-items: center;
+          }
+          .page-wrapper{
+            margin-top: 2rem;
           }
 
 
