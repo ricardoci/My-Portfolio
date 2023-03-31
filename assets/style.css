@@ -277,7 +277,8 @@ footer{
     header nav {
       justify-content: center;
     }
-    @media screen and (max-width: 460px) {
+}
+    @media screen and (max-width: 400px) {
         header {
           padding: 0 0 10px 0;
           justify-content: center;
@@ -310,13 +311,12 @@ footer{
             justify-content: center;
             align-items: center;
         }
-        .page-wrapper{
-            margin-top: 2rem;
-          }
-    }   
+        .page-section{
+            margin-bottom: 1rem;
+        }
     
   
-  
+    }
     
   
   @media screen and (max-width: 300px) {
@@ -333,27 +333,28 @@ footer{
       font-size: 8vw;
     }
   
-    nav a{
-        justify-content: center;
-        font-size: 0.8rem;
-      }
-          .hero-banner h2{
-              color: #d67229;
-              font-size: 1.5rem;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-          }
-          .hero-banner p{
-              color: #d67229;
-              font-size: 1rem;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-          }
-          .page-wrapper{
-            margin-top: 2rem;
-          }
+      nav a{
+      justify-content: center;
+      font-size: 0.8rem;
+    }
+        .hero-banner h2{
+            color: #d67229;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero-banner p{
+            color: #d67229;
+            font-size: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .page-section{
+            margin-bottom: 2rem;
+        }
+    
 
 
 
