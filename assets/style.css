@@ -145,67 +145,86 @@ nav a {
     background-color: #1c1b29;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
+   
+    
 }
-
-.container {
+.container{
     position: relative;
-    height: 250px;
-    overflow: hidden;
-    margin-bottom: 20px;
+    clip-path: polygon(0 0,100% 0, 100% 100%, 0 100%);
+    height:250px;
+    
 }
-
-.card .container img {
+  .card .container img{
     width: 100%;
     display: block;
-    border-radius: 20px;
+    size:800px x 800px;
+    border-radius: 20px 20px 0 0;
 }
 
-.container:after {
+.container:after{
     content: "";
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 20px 20px 0 0;
     opacity: 0.7;
 }
-
-.card1 > .container:after {
-    background-image: linear-gradient(135deg, #ffab1d, #f8501c);
+.card1>.container:after{
+    background-image: linear-gradient(
+         135deg,
+        #ffab1d,
+        #f8501c
+    );
 }
-
-.card2 > .container:after {
-    background-image: linear-gradient(135deg, #ffab1d, #f8501c);
+.card2>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #ffab1d,
+        #f8501c
+    );
 }
-
-.card3 > .container:after {
-    background-image: linear-gradient(135deg, #ffab1d, #f8501c);
+.card3>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #ffab1d,
+        #f8501c
+    );
+    
 }
-
-.card4 > .container:after {
-    background-image: linear-gradient(135deg, #ffab1d, #f8501c);
+.card4>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #ffab1d,
+        #f8501c
+    );
+    
 }
-
-.card5 > .container:after {
-    background-image: linear-gradient(135deg, #ffab1d, #f8501c);
+.card5>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #ffab1d,
+        #f8501c
+    );
+    
+}.card6>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #ffab1d,
+        #f8501c
+    );
+    
 }
-
-.card6 > .container:after {
-    background-image: linear-gradient(135deg, #ffab1d, #f8501c);
-}
-
-
 .details{
     padding: 20px 10px;
 }
-
 .details>h3{
     color: #ffffff;
     font-weight: 600;
     font-size: 18px;
     margin: 10px 0 15px 0;
 }
-
 .details>p{
     color: #a0a0a0;
     font-size: 15px;
@@ -215,18 +234,19 @@ nav a {
 
 /*--------Contact-----------*/
 footer{
-    background: linear-gradient(#d67229, #7a3803);
+    background: linear-gradient(#d67229, #7a3803) ;
 }
-
 .contact address {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     height: 5rem;
-}
+    
 
-.contact address a {
+  }
+  
+  .contact address a {
     color: #ffffff;
     padding: 5px;
     text-decoration: none;
@@ -238,51 +258,105 @@ footer{
     transition: all 0.25s ease-in;
     margin: 0 0.2rem 0.1rem;
     display: inline-block;
-}
-
-.contact address a:hover {
+  }
+  
+  .contact address a:hover {
     background-size: 100% 88%;
     color: #192132;
     background-color: #7a3803;
     border-radius: 5%;
-}
+  }
 
-@media screen and (max-width: 767px) {
-    .container{
-        height: 200px;
-    }
-    .card .container img{
-        border-radius: 20px;
-    }
-}
+  
+ 
+  
+  
 
-@media screen and (max-width: 460px) {
+  
+  
+
+  @media screen and (max-width: 980px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }
+  
     header h1 {
-        font-size: 20px;
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
     }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+    header nav {
+      justify-content: center;
+    }
+    @media screen and (max-width: 460px) {
+        header {
+          padding: 0 0 10px 0;
+          justify-content: center;
+          text-align: center;
+        }
+      
+        header h1 {
+          width: 100%;
+          padding: 5px;
+          margin-bottom: 20px;
+          font-size: 10vw;
+        }
+      
+        header nav {
+          justify-content: center;
+        }
+    
+  
+  
+    
+  }
+  @media screen and (min-width: 1024px) {
+    
+    #work{
+        height: 90%;
+     }
+    
+  
+  
+    
+  }
+  @media screen and (min-width: 768px) and (max-width:1023px) {
+    
     #work{
         height: 150%;
-    }
-}
-
-@media screen and (max-width: 767px) {
+     }
+    
+  
+  
+    
+  }
+  @media screen and (max-width: 767px) {
+    
     #work{
         height: 270%;
-    }
-}
+     }
+    
+  
+  
+    
+  }
 
-@media screen and (max-width: 400px) {
+  @media screen and (max-width: 400px) {
+    
     #work{
         height: 300%;
-    }
-}
-@media screen and (max-width: 300px) {
-    #work{
-        height: 400%;
-    }
+     }
+    
+  
+  
+    
+  }
+  
+ 
 }
  
   
