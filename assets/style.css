@@ -298,6 +298,28 @@ footer{
   
     
   }
+  @media screen and (max-width: 300px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 30px;
+      font-size: 8vw;
+    }
+  
+    header nav {
+      justify-content: center;
+    }
+
+
+
+
+}
   @media screen and (min-width: 1024px) {
     
     #work{
