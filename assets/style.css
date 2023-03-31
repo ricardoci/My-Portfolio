@@ -284,7 +284,12 @@ footer{
         height: 400%;
     }
 }
- 
+@media screen and (max-width: 767px) {
+    body {
+      max-width: 100%;
+    }
+  }
+  
   
   
  
