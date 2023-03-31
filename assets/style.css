@@ -141,15 +141,11 @@ nav a {
     grid-gap: 1rem;
    
 }
-.card {
+.card{
     background-color: #1c1b29;
     border-radius: 20px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
-    width: calc(100% / 3 - 1rem); /* display 3 cards in a row */
-    /* or width: calc(100% / 4 - 1rem); display 4 cards in a row */
-    /* add 1rem for the grid-gap */
-  }
-  
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+}
 
 .container {
     position: relative;
