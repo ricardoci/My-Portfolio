@@ -14,6 +14,7 @@ body{
     background-size: cover;
     height: 120vh;
     backdrop-filter: blur(2px) ;
+    overflow-x: hidden; /* add this to hide overflow in x-axis */
 }
 
 header{
@@ -84,7 +85,7 @@ nav a {
 
 #about{
     height: 100vh;
-    padding: 0px 15rem 60px ;
+    padding: 0px 1rem 60px ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,6 +116,8 @@ nav a {
     }
 }
 
+
+
 @media screen and (max-width:768px) {
     #about  {
         flex-direction: column;
@@ -128,7 +131,7 @@ nav a {
 }
 
 #work{
-    background: linear-gradient(10deg, #4d5061,#192132);
+    background: linear-gradient(to bottom, #4d5061 0%,#192132 100%);
     height: 100vh;
     display: grid;
     place-items: center;
@@ -139,6 +142,7 @@ nav a {
     grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
     padding: 0 1rem 0 1rem;
     grid-gap: 1rem;
+    
    
 }
 .card{
@@ -251,6 +255,7 @@ footer{
   
   
 
+ 
   
   
 
