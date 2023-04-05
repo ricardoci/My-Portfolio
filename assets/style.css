@@ -143,6 +143,9 @@ nav a {
     grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
     padding: 0 1rem 0 1rem;
     grid-gap: 1rem;
+  
+    margin-bottom: 5rem; 
+    
     
    
 }
@@ -278,7 +281,7 @@ footer{
       justify-content: center;
     }
 }
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 460px) {
         header {
           padding: 0 0 10px 0;
           justify-content: center;
@@ -312,7 +315,7 @@ footer{
             align-items: center;
         }
         .page-section{
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
         }
         footer {
             margin-top: 5rem;
