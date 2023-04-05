@@ -314,6 +314,10 @@ footer{
         .page-section{
             margin-bottom: 1rem;
         }
+        footer {
+            margin-top: 5rem;
+
+        }
     
   
     }
@@ -354,6 +358,11 @@ footer{
         .page-section{
             margin-bottom: 2rem;
         }
+
+        footer {
+            margin-top: 5rem;
+
+        }
     
 
 
@@ -391,26 +400,8 @@ footer{
     
   }
 
-  @media screen and (max-width: 400px) {
-    
-    #work{
-        height: 400%;
-     }
-    
   
   
-    
-  }
-  @media screen and (max-width: 300px) {
-    
-    #work{
-        height: 500%;
-     }
-    
-  
-  
-    
-  }
   
  
 
